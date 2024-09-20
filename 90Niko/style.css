@@ -3,19 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    font-size: 2.5em;
-    color: #333;
-    text-align: center;
-    margin-top: 50px;
+main {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 40px auto; /* Center the content and add spacing */
+    padding: 20px; /* Add padding around the content */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Soft rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-p{
-    font-size: 1.2em;
-    color: #333;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 3ch;
+/* Heading (h1) styling */
+main h1 {
+    font-size: 36px; /* Larger font size for the main heading */
+    color: #333; /* Dark color for the heading */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+    letter-spacing: 1px; /* Slight letter spacing */
+}
+
+/* Paragraph (p) styling */
+main p {
+    font-size: 18px; /* Comfortable font size for reading */
+    color: #555; /* Slightly lighter color for the paragraph */
+    line-height: 1.6; /* Increased line height for readability */
+    font-family: 'Georgia', serif; /* Elegant serif font for the paragraph */
+    text-align: justify; /* Justify the text */
+    margin-bottom: 20px; /* Add some spacing below paragraphs */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    main h1 {
+        font-size: 28px; /* Smaller heading size on smaller screens */
+    }
+
+    main p {
+        font-size: 16px; /* Smaller paragraph size for better mobile readability */
+    }
 }
 nav {
     background-color: #333; /* Dark background color for the nav */
