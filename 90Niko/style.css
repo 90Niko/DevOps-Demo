@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3ch;
+}
+nav {
+    background-color: #333; /* Dark background color for the nav */
+    padding: 15px; /* Padding around the nav */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Display the list items horizontally */
+    justify-content: center; /* Center the items in the nav */
+}
+
+nav ul li {
+    margin: 0 20px; /* Space between each list item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    font-size: 18px; /* Font size */
+    padding: 8px 15px; /* Padding inside each link */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Background color change on hover */
+    color: #fff; /* Change the text color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+nav ul li a:active {
+    background-color: #222; /* Darker background for active links */
+}
